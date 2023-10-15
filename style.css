@@ -144,3 +144,21 @@ form > label{
   border-style: none;
   cursor: pointer;
 }
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .form, .success {
+    width: 100%;
+  }
+}
